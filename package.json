@@ -1,13 +1,25 @@
 {
-  "name": "banana",
-  "version": "0.2.0",
+  "name": "banana-js",
+  "version": "0.2.4",
   "description": "When your code needs some potassium.",
   "main": "banana.js",
   "scripts": {
-    "test": "node test && echo ✔"
+    "test": "node test && echo Good to go!"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kyoto-shift/banana"
+  },
+  "keywords": [
+    "banana",
+    "banana-js",
+    "banana.js"
+  ],
   "author": "Judah Caruso Rodriguez <judah@0px.moe> (http://0px.moe)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyoto-shift/banana/issues"
+  },
   "devDependencies": {
     "assert": "^1.4.1"
   }
