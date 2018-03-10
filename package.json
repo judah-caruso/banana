@@ -1,0 +1,14 @@
+{
+  "name": "banana",
+  "version": "0.2.0",
+  "description": "When your code needs some potassium.",
+  "main": "banana.js",
+  "scripts": {
+    "test": "node test && echo ✔"
+  },
+  "author": "Judah Caruso Rodriguez <judah@0px.moe> (http://0px.moe)",
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "^1.4.1"
+  }
+}
