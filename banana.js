@@ -4,11 +4,11 @@
   const _banana = "Banana";
 
   banana.muffin = (opt) =>  {
-  	switch(opt) {
-  		case "ingredients": return ["1/4 cup butter (softened)", "1/2 cup sugar", "1 egg", "3/4 cup mashed ripe banana", "1/2 teaspoon vanilla extract", "1 cup all-purpose flour", "3/4 teaspoon baking powder", "1/4 teaspoon salt", "1/8 teaspoon ground cinnamon", "1/4 cup chopped walnuts"]; 
-  		case "directions": return ["0. Put cream, butter, and sugar into a small bowl. Beat in the egg.", "1. Combine the flour, baking powder, salt, baking soda, and cinnamon; add to the creamed mixture just until moistened.", "2. Fold in walnuts.", "3. Coat muffin cups with cooking spray or use paper liners.", "4. Fill two-thirds full with batter.", "5. Bake at 350° for 23-25 minutes or until a toothpick comes out clean.", "6. Cool for 5 minutes before removing pan to a wire rack."];
-  		default: return "A tasty treat. Great for breakfast, lunch, or even dinner!";
-  	}
+    switch(opt) {
+      case "ingredients": return ["1/4 cup butter (softened)", "1/2 cup sugar", "1 egg", "3/4 cup mashed ripe banana", "1/2 teaspoon vanilla extract", "1 cup all-purpose flour", "3/4 teaspoon baking powder", "1/4 teaspoon salt", "1/8 teaspoon ground cinnamon", "1/4 cup chopped walnuts"]; 
+      case "directions": return ["0. Put cream, butter, and sugar into a small bowl. Beat in the egg.", "1. Combine the flour, baking powder, salt, baking soda, and cinnamon; add to the creamed mixture just until moistened.", "2. Fold in walnuts.", "3. Coat muffin cups with cooking spray or use paper liners.", "4. Fill two-thirds full with batter.", "5. Bake at 350° for 23-25 minutes or until a toothpick comes out clean.", "6. Cool for 5 minutes before removing pan to a wire rack."];
+      default: return "A tasty treat. Great for breakfast, lunch, or even dinner!";
+    }
   }
   banana.pudding = (opt) => {
     switch(opt){
@@ -37,46 +37,46 @@
   banana.peel = () => "🍌";
   banana.color = () => "Yellow";
 
-  banana.arabic 		   = () 	=> "موز";
-  banana.azerbaijani   = () 	=> "banan";
-  banana.basque			   = () 	=> "platano";
-  banana.belarusian		 = () 	=> "банан";
-  banana.burmese		   = () 	=> "ငှက်ပျောသီး";
-  banana.catalan		   = () 	=> "plàtan";
-  banana.cebuano		   = () 	=> "saging";
-  banana.chinese		   = (dialect) => {
-  	switch (dialect){
-  		case "mandarin"	: return "香蕉";
-  		case "cantonese": return "香蕉";
-  		default			    : return "香蕉";}}
-  banana.czech			   = ()		=> "banán";
-  banana.dutch			   = ()		=> "banan";
-  banana.esperanto	   = () 	=> "banano";
-  banana.english 	     = () 	=> "banana";
-  banana.estonian	     = ()		=> "banaan";
-  banana.filipino	     = ()		=> "saging";
-  banana.finnish		   = ()		=> "banaani";
-  banana.french			   = ()		=> "banane";
-  banana.georgian	     = ()		=> "ბანანი";
-  banana.german			   = ()		=> "Banane";
-  banana.greek		     = ()		=> "μπανάνα";
-  banana.gujarati	     = ()		=> "બનાના";
-  banana.haitianCreol  = ()		=> "bannann";
-  banana.hausa			   = ()		=> "ayaba";
-  banana.hebrew			   = ()		=> "בננה";
-  banana.hindi			   = ()		=> "केला";
-  banana.hungarian		 = ()		=> "banán";
-  banana.icelandic		 = ()		=> "banani";
-  banana.igbo			     = ()		=> "unere";
-  banana.indonesian		 = ()		=> "pisang";
-  banana.japanese		   = ()		=> "バナナ";
-  banana.kannada		   = ()		=> "ಬಾಳೆ";
-  banana.kazakh			   = ()		=> "банан";
-  banana.khmer			   = ()		=> "ចេក";
-  banana.korean 		   = () 	=> "바나나";
+  banana.arabic        = ()   => "موز";
+  banana.azerbaijani   = ()   => "banan";
+  banana.basque        = ()   => "platano";
+  banana.belarusian    = ()   => "банан";
+  banana.burmese       = ()   => "ငှက်ပျောသီး";
+  banana.catalan       = ()   => "plàtan";
+  banana.cebuano       = ()   => "saging";
+  banana.chinese       = (dialect) => {
+    switch (dialect){
+      case "mandarin" : return "香蕉";
+      case "cantonese": return "香蕉";
+      default         : return "香蕉";}}
+  banana.czech         = ()   => "banán";
+  banana.dutch         = ()   => "banan";
+  banana.esperanto     = ()   => "banano";
+  banana.english       = ()   => "banana";
+  banana.estonian      = ()   => "banaan";
+  banana.filipino      = ()   => "saging";
+  banana.finnish       = ()   => "banaani";
+  banana.french        = ()   => "banane";
+  banana.georgian      = ()   => "ბანანი";
+  banana.german        = ()   => "Banane";
+  banana.greek         = ()   => "μπανάνα";
+  banana.gujarati      = ()   => "બનાના";
+  banana.haitianCreol  = ()   => "bannann";
+  banana.hausa         = ()   => "ayaba";
+  banana.hebrew        = ()   => "בננה";
+  banana.hindi         = ()   => "केला";
+  banana.hungarian     = ()   => "banán";
+  banana.icelandic     = ()   => "banani";
+  banana.igbo          = ()   => "unere";
+  banana.indonesian    = ()   => "pisang";
+  banana.japanese      = ()   => "バナナ";
+  banana.kannada       = ()   => "ಬಾಳೆ";
+  banana.kazakh        = ()   => "банан";
+  banana.khmer         = ()   => "ចេក";
+  banana.korean        = ()   => "바나나";
 
 if(typeof module !== 'undefined' && module.exports) {
-    	module.exports = banana;
+      module.exports = banana;
   } else if (typeof define === 'function' && define.amd){
     define(banana);
   } else if (window) {
