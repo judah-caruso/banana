@@ -26,7 +26,7 @@ var banana = require("banana-js");
 ## Usage
 
 Banana currently supports 34 languages, including:
-> Arabic, Azerbaijani, Basque, Belarusian, Burmese, Catalan, Cebuano, Cantonese (and Mandarin), Czech, Dutch, Esperanto, English, Estonian, Filipino, Finnish, French, Georgian, German, Greek, Gujarati, Haitian Creol, Hausa, Hebrew, Hindi, Hungarian, Icelandic, Igbo, Indonesian, Japanese, Kannada, Kazakh, Khmer, and Korean!
+> Arabic, Azerbaijani, Basque, Belarusian, Burmese, Catalan, Cebuano, Cantonese (and Mandarin), Czech, Dutch, Esperanto, English, Estonian, Filipino, Finnish, French, Georgian, German, Greek, Gujarati, Haitian Creol, Hausa, Hebrew, Hindi, Hungarian, Icelandic, Igbo, Indonesian, Japanese, Kannada, Kazakh, Khmer, Korean and Russian!
 
 
 ```javascript

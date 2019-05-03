@@ -5,7 +5,6 @@
       {name:"azerbaijani"   ,word:"banan"}, 
       {name:"basque"        ,word:"platano"},
       {name:"belarusian"    ,word:"банан"},
-      {name:"russian"       ,word:"банан"},
       {name:"burmese"       ,word:"ငှက်ပျောသီး"},
       {name:"catalan"       ,word:"plàtan"},
       {name:"cebuano"       ,word:"saging"},
@@ -35,7 +34,8 @@
       {name:"kazakh"        ,word:"банан"},
       {name:"khmer"         ,word:"ចេក"},
       {name:"korean"        ,word:"바나나"},
-      {name:"mandarin"      ,word:"香蕉"}
+      {name:"mandarin"      ,word:"香蕉"},
+      {name:"russian"       ,word:"банан"}
     ];
 
   var banana = (lang) => {
