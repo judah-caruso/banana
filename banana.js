@@ -5,6 +5,7 @@
       {name:"azerbaijani"   ,word:"banan"}, 
       {name:"basque"        ,word:"platano"},
       {name:"belarusian"    ,word:"банан"},
+      {name:"russian"       ,word:"банан"},
       {name:"burmese"       ,word:"ငှက်ပျောသီး"},
       {name:"catalan"       ,word:"plàtan"},
       {name:"cebuano"       ,word:"saging"},
