@@ -34,7 +34,8 @@
       {name:"kazakh"        ,word:"банан"},
       {name:"khmer"         ,word:"ចេក"},
       {name:"korean"        ,word:"바나나"},
-      {name:"mandarin"      ,word:"香蕉"}
+      {name:"mandarin"      ,word:"香蕉"},
+      {name:"russian"       ,word:"банан"}
     ];
 
   var banana = (lang) => {
