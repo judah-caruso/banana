@@ -7,6 +7,7 @@ assert.equal("YmFuYW5h",			banana.base64(), 			"Should be 'YmFuYW5h'");
 assert.equal("#ffe135",				banana.hex(),				"Should be '#ffe135'");
 assert.equal("yellow",				banana.color(),				"Should be 'yellow'");
 assert.equal("no.",					banana.phone(),				"Should be 'no.'");
+assert.equal("🦍",					banana.holder(),					"Should be '🦍'");
 
 assert.equal(true, 				  	banana.isLongerThan("Dog"), "Dog has less characters than Banana, so it sould be false");
 
