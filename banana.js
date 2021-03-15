@@ -75,8 +75,8 @@ banana.reversed = (lang) => {
   return reversed.join("");
 };
 
-banana.peel   = () => "🍌";
-banana.cousin = () => "🍆";
+banana.peel   = () => "🍌🍌🍌";
+banana.cousin = () => "🍆༼ つ ◕_◕ ༽つ";
 banana.morse  = () => "-... .- -. .- -. .-";
 banana.base64 = () => "YmFuYW5h";
 banana.hex    = () => "#ffe135";
