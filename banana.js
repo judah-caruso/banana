@@ -1,5 +1,4 @@
 (function () {
-
   var languages = [ 
     {name:"arabic"        ,word:"موز"}, 
     {name:"azerbaijani"   ,word:"banan"}, 
@@ -14,6 +13,7 @@
     {name:"esperanto"     ,word:"banano"},
     {name:"english"       ,word:"banana"},
     {name:"estonian"      ,word:"banaan"},
+    {name:"farsi"         ,word:"موز"},
     {name:"filipino"      ,word:"saging"},
     {name:"finnish"       ,word:"banaani"},
     {name:"french"        ,word:"banane"},
@@ -35,6 +35,7 @@
     {name:"khmer"         ,word:"ចេក"},
     {name:"korean"        ,word:"바나나"},
     {name:"mandarin"      ,word:"香蕉"},
+    {name:"persian"       ,word:"موز"},
     {name:"russian"       ,word:"банан"}
   ];
 
