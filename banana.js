@@ -80,6 +80,7 @@
   banana.hex    = () => "#ffe135";
   banana.color  = () => "yellow";
   banana.phone  = () => "no.";
+  banana.holder = () => "🦍";
 
   banana.fact   = () => {
     // http://thebananapolice.com/fun-facts/
