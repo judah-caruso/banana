@@ -1,6 +1,7 @@
 var assert = require('assert');
 var banana = require('./');
 
+assert.equal("🍆",          banana.cousin(), "Should be '🍆'");
 assert.equal("🍌", 					banana.peel(), 				"Should be '🍌'");
 assert.equal("-... .- -. .- -. .-", banana.morse(), 			"Should be '-... .- -. .- -. .-'");
 assert.equal("YmFuYW5h",			banana.base64(), 			"Should be 'YmFuYW5h'");
