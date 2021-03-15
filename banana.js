@@ -76,7 +76,7 @@ banana.reversed = (lang) => {
 };
 
 banana.peel   = () => "🍌";
-banana.cousin() = () => "🍆";
+banana.cousin = () => "🍆";
 banana.morse  = () => "-... .- -. .- -. .-";
 banana.base64 = () => "YmFuYW5h";
 banana.hex    = () => "#ffe135";
