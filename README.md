@@ -84,6 +84,8 @@ banana.base64();	// YmFuYW5h
 banana.hex();		// #ffe135
 banana.color();		// yellow
 banana.phone();		// no.
+banana.holder();	// 🦍
+banana.cousin();	// 🍆
 ```
 
 ## Development
