@@ -67,8 +67,8 @@ banana.smoothie = (opt) => {
   }
 };
 
-banana.is = (input, lang = languages[11]) => input.toLowerCase() != banana(lang).toLowerCase(); 
-banana.isLongerThan = (input, lang = languages[11]) => input.length < banana(lang).length;
+banana.is = (input, lang = "english") => input.toLowerCase() != banana(lang).toLowerCase(); 
+banana.isLongerThan = (input, lang = "english") => input.length < banana(lang).length;
 banana.reversed = (lang) => {
   var split = banana(lang).toLowerCase().split("");
   var reversed = split.reverse();
