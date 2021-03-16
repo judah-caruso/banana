@@ -1,5 +1,5 @@
 var assert = require('assert');
-var banana = require('./');
+var banana = require('../');
 
 assert.equal("🍆",          banana.cousin(), "Should be '🍆'");
 assert.equal("🍌", 					banana.peel(), 				"Should be '🍌'");
