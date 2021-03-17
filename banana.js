@@ -67,8 +67,8 @@ banana.smoothie = (opt) => {
   }
 };
 
-banana.is = (input, lang) => (input.toLowerCase() != banana(lang).toLowerCase()) ? false : true; 
-banana.isLongerThan = (input, lang) => (input.length < banana(lang).length) ? true : false;
+banana.is = (input, lang = "english") => input.toLowerCase() != banana(lang).toLowerCase(); 
+banana.isLongerThan = (input, lang = "english") => input.length < banana(lang).length;
 banana.reversed = (lang) => {
   var split = banana(lang).toLowerCase().split("");
   var reversed = split.reverse();
@@ -76,7 +76,7 @@ banana.reversed = (lang) => {
 };
 
 banana.peel   = () => "🍌";
-banana.cousin() = () => "🍆";
+banana.cousin = () => "🍆";
 banana.morse  = () => "-... .- -. .- -. .-";
 banana.base64 = () => "YmFuYW5h";
 banana.hex    = () => "#ffe135";

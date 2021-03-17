@@ -2,7 +2,7 @@
 
 A banana library to end all banana libraries.
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a7b2a7e8b93b120f0025/maintainability)](https://codeclimate.com/github/kyoto-shift/banana/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/a7b2a7e8b93b120f0025/test_coverage)](https://codeclimate.com/github/kyoto-shift/banana/test_coverage)
+[![CI](https://github.com/kyoto-shift/banana/actions/workflows/ci.yml/badge.svg)](https://github.com/kyoto-shift/banana/actions/workflows/ci.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/a7b2a7e8b93b120f0025/maintainability)](https://codeclimate.com/github/kyoto-shift/banana/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/a7b2a7e8b93b120f0025/test_coverage)](https://codeclimate.com/github/kyoto-shift/banana/test_coverage)
 
 ## Set up 
 
@@ -84,6 +84,8 @@ banana.base64();	// YmFuYW5h
 banana.hex();		// #ffe135
 banana.color();		// yellow
 banana.phone();		// no.
+banana.holder();	// 🦍
+banana.cousin();	// 🍆
 ```
 
 ## Development
