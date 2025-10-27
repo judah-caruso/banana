@@ -9,7 +9,7 @@
     {name:"cebuano"       ,word:"saging"},
     {name:"cantonese"     ,word:"香蕉"},
     {name:"czech"         ,word:"banán"},
-    {name:"dutch"         ,word:"banan"},
+    {name:"dutch"         ,word:"banaan"},
     {name:"esperanto"     ,word:"banano"},
     {name:"english"       ,word:"banana"},
     {name:"estonian"      ,word:"banaan"},
