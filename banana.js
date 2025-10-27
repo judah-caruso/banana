@@ -45,6 +45,15 @@ var banana = (lang) => {
   else { null; }
 };
 
+banana.toLanguage = function getLanguageByBanana (bananaword) {
+  bananaword = bananaword.toLowerCase();
+  for (let i = 0; i < languages.length; ++i) {
+    if (languages[i].word.toLowerCase() == bananaword) {
+      return languages[i].name;
+    }
+  }
+}
+
 banana.muffin = (opt) =>  {
   switch(opt) {
     case "ingredients"    : return ["1/4 cup butter (softened)", "1/2 cup sugar", "1 egg", "3/4 cup mashed ripe banana", "1/2 teaspoon vanilla extract", "1 cup all-purpose flour", "3/4 teaspoon baking powder", "1/4 teaspoon salt", "1/8 teaspoon ground cinnamon", "1/4 cup chopped walnuts"]; 
